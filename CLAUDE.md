@@ -65,7 +65,7 @@ All skills return structured JSON with `{ success, warnings, errors, ... }`. The
 
 ```bash
 # Clone GAK as a dependency
-git clone https://github.com/TJ-Dev-Studio/godot-agent-kit.git tools/gak
+git clone https://github.com/sillypad-games/godot-agent-kit.git tools/gak
 
 # Wire skills into your project (one-time)
 ./tools/gak/gak init .
@@ -105,8 +105,8 @@ MGW automates the full development pipeline from GitHub issues to pull requests:
 
 | Tool | Repo | Purpose |
 |------|------|---------|
-| `godot-preview` | TJ-Dev-Studio/godot-preview | Scene capture (screenshot) |
-| `godot-interact` | TJ-Dev-Studio/godot-interact | Input simulation + capture |
+| `godot-preview` | sillypad-games/godot-preview | Scene capture (screenshot) |
+| `godot-interact` | sillypad-games/godot-interact | Input simulation + capture |
 | `mgw` | snipcodeit/mgw | GitHub issue-to-PR automation |
 
 ## Environment Variables
