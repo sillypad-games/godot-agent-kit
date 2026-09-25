@@ -117,7 +117,7 @@ cmd_setup() {
         (cd "$TOOLS_DIR/godot-preview" && git pull --quiet 2>/dev/null) || true
     else
         log "godot-preview: cloning..."
-        git clone --quiet https://github.com/TJ-Dev-Studio/godot-preview.git "$TOOLS_DIR/godot-preview" 2>/dev/null || {
+        git clone --quiet https://github.com/sillypad-games/godot-preview.git "$TOOLS_DIR/godot-preview" 2>/dev/null || {
             warn "Could not clone godot-preview. You can manually place it in $TOOLS_DIR/godot-preview/"
         }
     fi
@@ -128,7 +128,7 @@ cmd_setup() {
         (cd "$TOOLS_DIR/godot-interact" && git pull --quiet 2>/dev/null) || true
     else
         log "godot-interact: cloning..."
-        git clone --quiet https://github.com/TJ-Dev-Studio/godot-interact.git "$TOOLS_DIR/godot-interact" 2>/dev/null || {
+        git clone --quiet https://github.com/sillypad-games/godot-interact.git "$TOOLS_DIR/godot-interact" 2>/dev/null || {
             warn "Could not clone godot-interact. You can manually place it in $TOOLS_DIR/godot-interact/"
         }
     fi
@@ -319,7 +319,7 @@ SKILL
     # --- setup ---
     mkdir -p "$skills_dir/setup"
     local gak_repo_url
-    gak_repo_url="$(cd "$GAK_DIR" && git remote get-url origin 2>/dev/null || echo "https://github.com/TJ-Dev-Studio/godot-agent-kit.git")"
+    gak_repo_url="$(cd "$GAK_DIR" && git remote get-url origin 2>/dev/null || echo "https://github.com/sillypad-games/godot-agent-kit.git")"
     cat > "$skills_dir/setup/SKILL.md" <<SKILL
 ---
 name: gak-setup

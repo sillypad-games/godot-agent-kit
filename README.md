@@ -7,7 +7,7 @@ Built for [Claude Code](https://claude.ai/code) and similar AI coding agents.
 ## Install
 
 ```bash
-git clone https://github.com/TJ-Dev-Studio/godot-agent-kit.git
+git clone https://github.com/sillypad-games/godot-agent-kit.git
 cd godot-agent-kit
 chmod +x gak
 ./gak setup   # clones sub-tools
@@ -46,8 +46,8 @@ Each sub-tool is an independent repo that can be used standalone. GAK provides t
 
 | Tool | Description | Repo |
 |------|-------------|------|
-| [godot-preview](https://github.com/TJ-Dev-Studio/godot-preview) | Render scenes to PNG without a display | Standalone |
-| [godot-interact](https://github.com/TJ-Dev-Studio/godot-interact) | Simulate player input + capture results | Standalone |
+| [godot-preview](https://github.com/sillypad-games/godot-preview) | Render scenes to PNG without a display | Standalone |
+| [godot-interact](https://github.com/sillypad-games/godot-interact) | Simulate player input + capture results | Standalone |
 
 ## How It Works
 
